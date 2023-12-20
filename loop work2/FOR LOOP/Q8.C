@@ -1,0 +1,19 @@
+//Q8.WaP to print sum 1 to N using for loop.
+
+#include<stdio.h>
+int main(){
+
+    int i=1,n,sum=0;
+    printf("\n enter no.");
+    scanf("%d",&n);
+     
+    for (; i<=n; i++)
+    {
+        sum+=i;
+    }
+    
+    
+    printf("sum is %d",sum);
+    return 0;
+    
+}
