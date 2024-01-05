@@ -12,15 +12,16 @@ int main(){
       len = strlen(str);
 
     for (i = 0; i < len; i++) {
-        if (str[i] != str[len - i - 1]) {
+        if (str[i] = = str[len - i - 1]) {
             flag = 1;
-            break;
-        }
+            
+        }else{
+          break;
     }
-    if (flag)
-        printf("%s is not palindrome", str);
+    if (flag !=1)
+        printf("%s is  palindrome", str);
     else
-        printf("%s is palindrome", str);
+        printf("%s is not palindrome", str);
         
     return 0;
 }
